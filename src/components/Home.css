@@ -1,0 +1,12 @@
+.logo, .banner {
+    height: 100px;
+    border: 1px solid;
+}
+.home, .product, .null, .order {
+    height: 50px;
+    border: 1px solid;
+}
+.sidebar, .main {
+    height: auto;
+    border: 1px solid;
+}

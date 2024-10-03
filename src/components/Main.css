@@ -1,0 +1,211 @@
+/* Main Container Styling */
+.main-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header Section Container */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Toggle Button */
+.toggle-form-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-form-button:hover {
+    background-color: #165fbb;
+}
+
+/* Search Input and Button */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Adjust width as needed */
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #165fbb;
+}
+
+/* Create Post Form */
+.create-post-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-creation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-title-input, .post-status-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-post-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-post-button:hover {
+    background-color: #218838;
+}
+
+/* Post Cards */
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for Edit and Delete Buttons Above Post Title */
+.post-actions-above {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Post Header */
+.post-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.post-author {
+    font-size: 14px;
+    color: #555;
+}
+
+.post-status {
+    font-style: italic;
+    color: #888;
+}
+
+/* Post Actions */
+.post-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Like and Unlike Buttons */
+.like-button, .unlike-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.like-button:hover, .unlike-button:hover {
+    background-color: #165fbb;
+}
+
+/* Edit and Delete Buttons */
+.edit-post-button, .delete-post-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-post-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+.edit-post-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-post-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-post-button:hover {
+    background-color: #c82333;
+}
+
+/* Likes Container */
+.likes-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.liked-users {
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.likes-container:hover .liked-users {
+    display: block;
+}
+
+.liked-users ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liked-users li {
+    margin-bottom: 5px;
+}

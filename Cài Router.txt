@@ -1,0 +1,10 @@
+Định nghĩa: router để hiện ra các component theo đường dẫn
+cài router: npm i react-router-dom 
+chạy router cho tất cả dự án thì mở index.js và bọc lại:
+
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+Khai báo đường dẫn và component tương ứng
